@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88FC8498190CB5B300D81A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC8497190CB5B300D81A26 /* Foundation.framework */; };
+		88FC849A190CB5B300D81A26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC8499190CB5B300D81A26 /* CoreGraphics.framework */; };
+		88FC849C190CB5B300D81A26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC849B190CB5B300D81A26 /* UIKit.framework */; };
+		88FC84A2190CB5B300D81A26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88FC84A0190CB5B300D81A26 /* InfoPlist.strings */; };
+		88FC84A4190CB5B300D81A26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FC84A3190CB5B300D81A26 /* main.m */; };
+		88FC84A8190CB5B300D81A26 /* TTTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FC84A7190CB5B300D81A26 /* TTTAppDelegate.m */; };
+		88FC84AB190CB5B300D81A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FC84A9190CB5B300D81A26 /* Main.storyboard */; };
+		88FC84B0190CB5B300D81A26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FC84AF190CB5B300D81A26 /* Images.xcassets */; };
+		88FC84B7190CB5B300D81A26 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC84B6190CB5B300D81A26 /* XCTest.framework */; };
+		88FC84B8190CB5B300D81A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC8497190CB5B300D81A26 /* Foundation.framework */; };
+		88FC84B9190CB5B300D81A26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC849B190CB5B300D81A26 /* UIKit.framework */; };
+		88FC84C1190CB5B300D81A26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88FC84BF190CB5B300D81A26 /* InfoPlist.strings */; };
+		88FC84C3190CB5B300D81A26 /* TTTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FC84C2190CB5B300D81A26 /* TTTTests.m */; };
+		88FC84CE190CB64D00D81A26 /* TTTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FC84CD190CB64D00D81A26 /* TTTLoginViewController.m */; };
+		88FC84D1190CBA4E00D81A26 /* TTTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FC84D0190CBA4E00D81A26 /* TTTMainViewController.m */; };
+		88FC84D4190CC23D00D81A26 /* TTTRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FC84D3190CC23D00D81A26 /* TTTRoomViewController.m */; };
+		88FC84DB190CCEDC00D81A26 /* TTTRoomsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88FC84DA190CCEDC00D81A26 /* TTTRoomsTableViewCell.xib */; };
+		88FC84DD190CD0DE00D81A26 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC84DC190CD0DE00D81A26 /* Parse.framework */; };
+		88FC84DF190CD10700D81A26 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC84DE190CD10700D81A26 /* AudioToolbox.framework */; };
+		88FC84E1190CD10E00D81A26 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC84E0190CD10E00D81A26 /* CFNetwork.framework */; };
+		88FC84E3190CD11E00D81A26 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC84E2190CD11E00D81A26 /* CoreLocation.framework */; };
+		88FC84E5190CD12900D81A26 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC84E4190CD12900D81A26 /* libz.dylib */; };
+		88FC84E7190CD13600D81A26 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC84E6190CD13600D81A26 /* MobileCoreServices.framework */; };
+		88FC84E9190CD13E00D81A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC84E8190CD13E00D81A26 /* QuartzCore.framework */; };
+		88FC84EB190CD14400D81A26 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC84EA190CD14400D81A26 /* Security.framework */; };
+		88FC84ED190CD14A00D81A26 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC84EC190CD14A00D81A26 /* StoreKit.framework */; };
+		88FC84EF190CD15100D81A26 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FC84EE190CD15100D81A26 /* SystemConfiguration.framework */; };
+		88FC84F2190CF2BA00D81A26 /* TTTRoomsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FC84F1190CF2BA00D81A26 /* TTTRoomsTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88FC84BA190CB5B300D81A26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88FC848C190CB5B300D81A26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88FC8493190CB5B300D81A26;
+			remoteInfo = TTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88FC8494190CB5B300D81A26 /* TTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FC8497190CB5B300D81A26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88FC8499190CB5B300D81A26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88FC849B190CB5B300D81A26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88FC849F190CB5B300D81A26 /* TTT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTT-Info.plist"; sourceTree = "<group>"; };
+		88FC84A1190CB5B300D81A26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88FC84A3190CB5B300D81A26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88FC84A5190CB5B300D81A26 /* TTT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTT-Prefix.pch"; sourceTree = "<group>"; };
+		88FC84A6190CB5B300D81A26 /* TTTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTAppDelegate.h; sourceTree = "<group>"; };
+		88FC84A7190CB5B300D81A26 /* TTTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTAppDelegate.m; sourceTree = "<group>"; };
+		88FC84AA190CB5B300D81A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88FC84AF190CB5B300D81A26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88FC84B5190CB5B300D81A26 /* TTTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FC84B6190CB5B300D81A26 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		88FC84BE190CB5B300D81A26 /* TTTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTTTests-Info.plist"; sourceTree = "<group>"; };
+		88FC84C0190CB5B300D81A26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88FC84C2190CB5B300D81A26 /* TTTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTTests.m; sourceTree = "<group>"; };
+		88FC84CC190CB64D00D81A26 /* TTTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTLoginViewController.h; sourceTree = "<group>"; };
+		88FC84CD190CB64D00D81A26 /* TTTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTLoginViewController.m; sourceTree = "<group>"; };
+		88FC84CF190CBA4E00D81A26 /* TTTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTMainViewController.h; sourceTree = "<group>"; };
+		88FC84D0190CBA4E00D81A26 /* TTTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTMainViewController.m; sourceTree = "<group>"; };
+		88FC84D2190CC23D00D81A26 /* TTTRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTRoomViewController.h; sourceTree = "<group>"; };
+		88FC84D3190CC23D00D81A26 /* TTTRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTRoomViewController.m; sourceTree = "<group>"; };
+		88FC84DA190CCEDC00D81A26 /* TTTRoomsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTTRoomsTableViewCell.xib; sourceTree = "<group>"; };
+		88FC84DC190CD0DE00D81A26 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		88FC84DE190CD10700D81A26 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		88FC84E0190CD10E00D81A26 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		88FC84E2190CD11E00D81A26 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		88FC84E4190CD12900D81A26 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		88FC84E6190CD13600D81A26 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		88FC84E8190CD13E00D81A26 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		88FC84EA190CD14400D81A26 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		88FC84EC190CD14A00D81A26 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		88FC84EE190CD15100D81A26 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		88FC84F0190CF2BA00D81A26 /* TTTRoomsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTRoomsTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		88FC84F1190CF2BA00D81A26 /* TTTRoomsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTRoomsTableViewCell.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88FC8491190CB5B300D81A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FC84EF190CD15100D81A26 /* SystemConfiguration.framework in Frameworks */,
+				88FC84ED190CD14A00D81A26 /* StoreKit.framework in Frameworks */,
+				88FC84EB190CD14400D81A26 /* Security.framework in Frameworks */,
+				88FC84E9190CD13E00D81A26 /* QuartzCore.framework in Frameworks */,
+				88FC84E7190CD13600D81A26 /* MobileCoreServices.framework in Frameworks */,
+				88FC84E5190CD12900D81A26 /* libz.dylib in Frameworks */,
+				88FC84E3190CD11E00D81A26 /* CoreLocation.framework in Frameworks */,
+				88FC849A190CB5B300D81A26 /* CoreGraphics.framework in Frameworks */,
+				88FC84E1190CD10E00D81A26 /* CFNetwork.framework in Frameworks */,
+				88FC84DF190CD10700D81A26 /* AudioToolbox.framework in Frameworks */,
+				88FC849C190CB5B300D81A26 /* UIKit.framework in Frameworks */,
+				88FC84DD190CD0DE00D81A26 /* Parse.framework in Frameworks */,
+				88FC8498190CB5B300D81A26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88FC84B2190CB5B300D81A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FC84B7190CB5B300D81A26 /* XCTest.framework in Frameworks */,
+				88FC84B9190CB5B300D81A26 /* UIKit.framework in Frameworks */,
+				88FC84B8190CB5B300D81A26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88FC848B190CB5B300D81A26 = {
+			isa = PBXGroup;
+			children = (
+				88FC849D190CB5B300D81A26 /* TTT */,
+				88FC84BC190CB5B300D81A26 /* TTTTests */,
+				88FC8496190CB5B300D81A26 /* Frameworks */,
+				88FC8495190CB5B300D81A26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88FC8495190CB5B300D81A26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88FC8494190CB5B300D81A26 /* TTT.app */,
+				88FC84B5190CB5B300D81A26 /* TTTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88FC8496190CB5B300D81A26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88FC84EE190CD15100D81A26 /* SystemConfiguration.framework */,
+				88FC84EC190CD14A00D81A26 /* StoreKit.framework */,
+				88FC84EA190CD14400D81A26 /* Security.framework */,
+				88FC84E8190CD13E00D81A26 /* QuartzCore.framework */,
+				88FC84E6190CD13600D81A26 /* MobileCoreServices.framework */,
+				88FC84E4190CD12900D81A26 /* libz.dylib */,
+				88FC84E2190CD11E00D81A26 /* CoreLocation.framework */,
+				88FC84E0190CD10E00D81A26 /* CFNetwork.framework */,
+				88FC84DE190CD10700D81A26 /* AudioToolbox.framework */,
+				88FC84DC190CD0DE00D81A26 /* Parse.framework */,
+				88FC8497190CB5B300D81A26 /* Foundation.framework */,
+				88FC8499190CB5B300D81A26 /* CoreGraphics.framework */,
+				88FC849B190CB5B300D81A26 /* UIKit.framework */,
+				88FC84B6190CB5B300D81A26 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88FC849D190CB5B300D81A26 /* TTT */ = {
+			isa = PBXGroup;
+			children = (
+				88FC84A6190CB5B300D81A26 /* TTTAppDelegate.h */,
+				88FC84A7190CB5B300D81A26 /* TTTAppDelegate.m */,
+				88FC84A9190CB5B300D81A26 /* Main.storyboard */,
+				88FC84CC190CB64D00D81A26 /* TTTLoginViewController.h */,
+				88FC84CD190CB64D00D81A26 /* TTTLoginViewController.m */,
+				88FC84CF190CBA4E00D81A26 /* TTTMainViewController.h */,
+				88FC84D0190CBA4E00D81A26 /* TTTMainViewController.m */,
+				88FC84D2190CC23D00D81A26 /* TTTRoomViewController.h */,
+				88FC84D3190CC23D00D81A26 /* TTTRoomViewController.m */,
+				88FC84DA190CCEDC00D81A26 /* TTTRoomsTableViewCell.xib */,
+				88FC84F0190CF2BA00D81A26 /* TTTRoomsTableViewCell.h */,
+				88FC84F1190CF2BA00D81A26 /* TTTRoomsTableViewCell.m */,
+				88FC84AF190CB5B300D81A26 /* Images.xcassets */,
+				88FC849E190CB5B300D81A26 /* Supporting Files */,
+			);
+			path = TTT;
+			sourceTree = "<group>";
+		};
+		88FC849E190CB5B300D81A26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88FC849F190CB5B300D81A26 /* TTT-Info.plist */,
+				88FC84A0190CB5B300D81A26 /* InfoPlist.strings */,
+				88FC84A3190CB5B300D81A26 /* main.m */,
+				88FC84A5190CB5B300D81A26 /* TTT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88FC84BC190CB5B300D81A26 /* TTTTests */ = {
+			isa = PBXGroup;
+			children = (
+				88FC84C2190CB5B300D81A26 /* TTTTests.m */,
+				88FC84BD190CB5B300D81A26 /* Supporting Files */,
+			);
+			path = TTTTests;
+			sourceTree = "<group>";
+		};
+		88FC84BD190CB5B300D81A26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88FC84BE190CB5B300D81A26 /* TTTTests-Info.plist */,
+				88FC84BF190CB5B300D81A26 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88FC8493190CB5B300D81A26 /* TTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88FC84C6190CB5B300D81A26 /* Build configuration list for PBXNativeTarget "TTT" */;
+			buildPhases = (
+				88FC8490190CB5B300D81A26 /* Sources */,
+				88FC8491190CB5B300D81A26 /* Frameworks */,
+				88FC8492190CB5B300D81A26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTT;
+			productName = TTT;
+			productReference = 88FC8494190CB5B300D81A26 /* TTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88FC84B4190CB5B300D81A26 /* TTTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88FC84C9190CB5B300D81A26 /* Build configuration list for PBXNativeTarget "TTTTests" */;
+			buildPhases = (
+				88FC84B1190CB5B300D81A26 /* Sources */,
+				88FC84B2190CB5B300D81A26 /* Frameworks */,
+				88FC84B3190CB5B300D81A26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88FC84BB190CB5B300D81A26 /* PBXTargetDependency */,
+			);
+			name = TTTTests;
+			productName = TTTTests;
+			productReference = 88FC84B5190CB5B300D81A26 /* TTTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88FC848C190CB5B300D81A26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TTT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Jimmy;
+				TargetAttributes = {
+					88FC84B4190CB5B300D81A26 = {
+						TestTargetID = 88FC8493190CB5B300D81A26;
+					};
+				};
+			};
+			buildConfigurationList = 88FC848F190CB5B300D81A26 /* Build configuration list for PBXProject "TTT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88FC848B190CB5B300D81A26;
+			productRefGroup = 88FC8495190CB5B300D81A26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88FC8493190CB5B300D81A26 /* TTT */,
+				88FC84B4190CB5B300D81A26 /* TTTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88FC8492190CB5B300D81A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FC84B0190CB5B300D81A26 /* Images.xcassets in Resources */,
+				88FC84DB190CCEDC00D81A26 /* TTTRoomsTableViewCell.xib in Resources */,
+				88FC84A2190CB5B300D81A26 /* InfoPlist.strings in Resources */,
+				88FC84AB190CB5B300D81A26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88FC84B3190CB5B300D81A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FC84C1190CB5B300D81A26 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88FC8490190CB5B300D81A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FC84A4190CB5B300D81A26 /* main.m in Sources */,
+				88FC84F2190CF2BA00D81A26 /* TTTRoomsTableViewCell.m in Sources */,
+				88FC84D4190CC23D00D81A26 /* TTTRoomViewController.m in Sources */,
+				88FC84A8190CB5B300D81A26 /* TTTAppDelegate.m in Sources */,
+				88FC84D1190CBA4E00D81A26 /* TTTMainViewController.m in Sources */,
+				88FC84CE190CB64D00D81A26 /* TTTLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88FC84B1190CB5B300D81A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FC84C3190CB5B300D81A26 /* TTTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88FC84BB190CB5B300D81A26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88FC8493190CB5B300D81A26 /* TTT */;
+			targetProxy = 88FC84BA190CB5B300D81A26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88FC84A0190CB5B300D81A26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88FC84A1190CB5B300D81A26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88FC84A9190CB5B300D81A26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88FC84AA190CB5B300D81A26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88FC84BF190CB5B300D81A26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88FC84C0190CB5B300D81A26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88FC84C4190CB5B300D81A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		88FC84C5190CB5B300D81A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88FC84C7190CB5B300D81A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTT/TTT-Prefix.pch";
+				INFOPLIST_FILE = "TTT/TTT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88FC84C8190CB5B300D81A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTT/TTT-Prefix.pch";
+				INFOPLIST_FILE = "TTT/TTT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88FC84CA190CB5B300D81A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TTT.app/TTT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTT/TTT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TTTTests/TTTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		88FC84CB190CB5B300D81A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TTT.app/TTT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTT/TTT-Prefix.pch";
+				INFOPLIST_FILE = "TTTTests/TTTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88FC848F190CB5B300D81A26 /* Build configuration list for PBXProject "TTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88FC84C4190CB5B300D81A26 /* Debug */,
+				88FC84C5190CB5B300D81A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88FC84C6190CB5B300D81A26 /* Build configuration list for PBXNativeTarget "TTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88FC84C7190CB5B300D81A26 /* Debug */,
+				88FC84C8190CB5B300D81A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88FC84C9190CB5B300D81A26 /* Build configuration list for PBXNativeTarget "TTTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88FC84CA190CB5B300D81A26 /* Debug */,
+				88FC84CB190CB5B300D81A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88FC848C190CB5B300D81A26 /* Project object */;
+}
